@@ -1,0 +1,75 @@
+.todo-app {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  
+    h1 {
+      color: #333;
+      text-align: center;
+      margin-bottom: 20px; // Added margin
+    }
+  
+    .btn {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      margin-bottom: 20px; // Added margin
+  
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+  
+    .select-filter {
+      width: 80%;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ddd;
+      outline: none;
+      margin-bottom: 15px;
+    }
+  
+    .input-title,
+    .input-description {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px; // Added margin for both
+      border-radius: 5px;
+      border: 1px solid #ddd;
+      outline: none;
+    }
+  
+    .input-description {
+      min-height: 100px;
+      resize: vertical;
+    }
+  
+    ul {
+      list-style: none;
+      padding: 0;
+      margin-top: 20px; // Added margin
+  
+      li {
+        background: #f8f9fa;
+        margin-bottom: 10px; // Maintain this for spacing between list items
+        padding: 5px 10px;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+        &:hover {
+          background: #e9ecef;
+        }
+
+        h4 {
+        margin-bottom: 5px;
+        }
+
+      }
+    }
+  }
+  
